@@ -1,84 +1,76 @@
+h2 {
+	font-family: 'Baloo Bhaina', cursive;
+}
 header {
       text-align: center;
-      background: url("https://github.com/trp15jy/trp15jy.github.io/blob/master/header_pix.JPG?raw=true");
+      background-color: #e6e6e6;
       background-size: cover;
       background-position: center;
       color: #ff00ff;
+      height: auto;
+      width: auto;
+      margin-bottom: 0;
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-top: 0;
+      padding-right: 0;
+      padding-left: 0;
+      top: 0px;
+
     }
     a {
-      color: #7466ff;
+      color: white;
       font-size: 18px;
       display: inline block;
       font-family: 'Lobster', cursive;
     }
-
+  
 body {
-	background-color: #e6e6e6;
+	font-size: 16px;
+	background: url("https://github.com/trp15jy/trp15jy.github.io/blob/master/header_pix.JPG?raw=true");
+	background-size: cover;
+    background-position: center;
 }
 h1 {
 	font-family:'Londrina Shadow', cursive;
   	text-align: center;
-  	font-size: 85px;
-  	color: #00bfff;
+  	font-size: 100px;
+  	color: #800000;
   	margin: 60px 0 0 0;
+  	width: 0 auto;
 }
 h2 {
-	color:#00bfff;
+	color:#800000;
 	margin: 0px 0 70px 0;
-	font-family: 'Lobster', cursive;
+	font-family: 'Baloo Bhaina', cursive;
+	width: 0 auto;
 }
-
 li {
-	color:#221122;
-	font-family: Tahoma;
-	display: inline ;
-  padding: 0px 10px 0px 10px;
+	color:#800000;
+	font-family: 'Lobster', cursive;
+	font-size: ;
+	display: inline;
 }
-h3 {
-  font-family: 'Lobster', cursive;
-}
-p2 {
-  font-family: 'Lobster', cursive;
-  font-size: 16px;
+  ul {
+      padding: 20px;
+    }
+#navbar {
+	display: inline;
 }
 img {
       margin: 40px 0px 0px 0px;
       border: 5px solid white;
       border-radius: 20px;
     }
-  @media (max-width: 500px) {
-  h1 {
-    font-size: 50px;
-    line-height: 40px;
-    margin-top: 20px;
-  }
-  h2 {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-  div {
-    margin: 20px 12px 0 12px;
-  }
-  #press {
-    border: 2px;
-    bacground-color:blue;
-  }
-  p {
-    line-height: 24px;
-    font-size: 20px;
-  }
-  small {
-    font-size: 16px;
-  }
-}
 form {
     	text-align: center;
     	font-family: 'Lobster', cursive;
     }
 input[type="submit"] {
       background: #00bfff;
-      color: #4d194d;
+      color: white;
     }
 form p {
 	color:#008080;
