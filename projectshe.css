@@ -1,9 +1,15 @@
 header {
+      height: 200px;
+      width:;
       text-align: center;
-      background: url("https://github.com/trp15jy/trp15jy.github.io/blob/master/header_pix.JPG?raw=true");
+      /*background: url("https://github.com/trp15jy/trp15jy.github.io/blob/master/header_pix.JPG?raw=true");*/
       background-size: cover;
       background-position: center;
-      color: #ff00ff;
+      color: #8c8c8c;
+      background-color: #8c8c8c;
+      border: 5px;
+      border-radius: 10px;
+
     }
     a {
       color: #7466ff;
@@ -13,25 +19,25 @@ header {
     }
 
 body {
-	background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
 h1 {
-	font-family:'Londrina Shadow', cursive;
-  	text-align: center;
-  	font-size: 85px;
-  	color: #00bfff;
-  	margin: 60px 0 0 0;
+    font-family: 'Ranga', cursive;
+    text-align: center;
+    font-size: 85px;
+    color: #00bfff;
+    margin: 60px 0 0 0;
 }
 h2 {
-	color:#00bfff;
-	margin: 0px 0 70px 0;
-	font-family: 'Lobster', cursive;
+  color:#00bfff;
+  margin: 0px 0 70px 0;
+  font-family: 'Lobster', cursive;
 }
 
 li {
-	color:#221122;
-	font-family: Tahoma;
-	display: inline ;
+  color:#221122;
+  font-family: Tahoma;
+  display: inline ;
   padding: 0px 10px 0px 10px;
 }
 h3 {
@@ -46,7 +52,7 @@ img {
       border: 5px solid white;
       border-radius: 20px;
     }
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 50px;
     line-height: 40px;
@@ -62,7 +68,7 @@ img {
   }
   #press {
     border: 2px;
-    bacground-color:blue;
+    background-color:blue;
   }
   p {
     line-height: 24px;
@@ -73,33 +79,36 @@ img {
   }
 }
 form {
-    	text-align: center;
-    	font-family: 'Lobster', cursive;
+      text-align: center;
+      font-family: 'Lobster', cursive;
     }
 input[type="submit"] {
       background: #00bfff;
       color: #4d194d;
     }
 form p {
-	color:#008080;
-	font-size: 16px;
-	font-family: 'Lobster', cursive;
+  color:#008080;
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
 }
 p {
-	color: #008080;
-	font-size: 12px;
+  color: #008080;
+  font-size: 12px;
 }
 .about {
-	font-family: ;
+  font-family: ;
 }
 div {
-	padding: 10px;
-	display: inline;
+  padding: 10px;
+  display: inline;
 }
-footer {
-	text-align: center;
-	color: #ff00ff;
-	background-color: #a6a6a6;
-	font-family: 'Lobster', cursive;
-	clear: both;
+.footer {
+  text-align: center;
+  color: #ff00ff;
+  background-color: #a6a6a6;
+  font-family: 'Lobster', cursive;
+  clear: both;
+  border-radius: 10px;
+  max-width: 500px;
+  height: 200px;
 }

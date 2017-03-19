@@ -4,6 +4,7 @@
 		<title>She Eats</title>
 		<link href='https://github.com/trp15jy/trp15jy.github.io/tree/master/bootstrap-3.3.7-dist' rel= 'stylesheet'>
 		<link type="text/css" rel="stylesheet" href="projectshe.css">
+		<link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<script src='htpps://code.jquery.com/jquery-3.1.1.min.js'></script>
@@ -14,7 +15,7 @@
 
 				<h1>She Eats...</h1>
 				<h2>Memorable bites through the world...</h2>
-					<div id="navbar">
+					<!--<div id="navbar">
 						<ul>
 							<li><a>Home</a></li>
 							<li><a>Who Is She?</a></li>
@@ -22,17 +23,44 @@
 							<li><a>America</a></li>
 							<li><a>Blog</a></li>
 						</ul>	
-					</div>        				
+					</div> 
+					-->       				
         </header>
         <div class="container">
         	 <div class="row">
         	 	<div class="col-xs-12 col-sm-6 col-md-8">
         	 	<!--This is an attempt of an intro and then we are to have like a big rounded responsive image that will lead to the different dishes/food-->
-        			<div id="press"><p>Start Here</p></div>
+        			<!--<div id="press"><p>Start Here</p></div>-->
         			<p2>There is nothing like travelling to different places and exploring the different foods unique to different parts of the world. What better way than to keep tabs on what has been tasted so far..</p2>
         		</div>
         	</div>
         </div>
+
+		<div id="content">
+
+			<div class="w3-content w3-section" style="max-width:500px">
+  				<img class="mySlides" src="http://www.bestcollegesonline.com/wp-content/uploads/2012/01/collegefood/02_burgers.jpg" style="width:50%">
+  				<img class="mySlides" src="https://s-media-cache-ak0.pinimg.com/736x/e7/27/12/e72712ba1968bb639bcc9fbe4dbab208.jpg" style="width:50%">
+  				<img class="mySlides" src="https://media1.popsugar-assets.com/files/2010/07/27/1/192/1922195/43506804397e276e_quiz_american_dish_origins.preview.jpg" style="width:50%">
+  				<img class="mySlides" src="http://findesiglo.com.mx/wp-content/uploads/sites/297/2016/10/authentic-mexican-food-dishes-cuisine1.jpg" style="width:50%">
+			</div>
+		</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 3 seconds
+}
+</script>
         	<form>
         		<p>Sign up now for a free monthly newsletter from She Eats!</p>
   					<div class="form-inline">
@@ -47,8 +75,8 @@
 			</form>
 			<!--/*add more content to the footer. Something like a facebook profile of both authors*-->
 
-        <footer>
+        <div class="footer">
         	<p>©Jennifer Yashi and Wiam Sa'ad</p>
-        </footer>
+        </div>
 	</body>
 </html>
